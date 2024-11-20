@@ -1,5 +1,26 @@
 # Blood Bank Management
 
+## How to Run the Project
+
+1. **Clone the repository**    : 
+```git clone https://github.com/your-repo/blood-bank-management.git```
+```cd blood-bank-management```
+
+
+2. **Build the project**:
+```dotnet build```
+
+
+3. **Run the project**:
+```dotnet run```
+
+
+4. **Access the API**:
+Open your browser or API client (e.g., Postman) and navigate to `https://localhost:5001/api/bloodbank` to start interacting with the Blood Bank Management API.
+
+5. **Run the tests** (if applicable):
+```dotnet test```
+
 ## Create
 **POST /api/bloodbank**: Add a new entry to the blood bank list. The input should include donor details, blood type, quantity, and collection/expiration dates.
 
