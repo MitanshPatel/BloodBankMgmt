@@ -57,7 +57,7 @@ namespace BloodBank.Controllers
             bloodBank.ExpirationDate = updatedBloodBank.ExpirationDate;
             bloodBank.Status = updatedBloodBank.Status;
 
-            return NoContent();
+            return Ok(bloodBank);
         }
 
         [HttpDelete("{id}")]
